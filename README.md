@@ -50,4 +50,5 @@ It is way simpler if you're requiring something from `node_modules`...this examp
 # References
 
 https://webpack.github.io/docs/configuration.html#node
+
 https://webpack.github.io/docs/configuration.html#externals
