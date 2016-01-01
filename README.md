@@ -38,7 +38,7 @@ This will just run webpack then the bundled file, which should print the output 
 
 # Path resolution
 
-This is way easier if you're requiring something from node_modules...this example builds into the dist folder, so the relative path is different. If you're requiring something like `react`, your config will look like:
+It is way simpler if you're requiring something from `node_modules`...this example builds into the dist folder, so the relative path is different. If you're requiring something like `react`, you don't need relative paths, so your config will look like:
 
 ```js
   ...
