@@ -1,4 +1,4 @@
-# Webpack node external demo
+# Webpack node externals demo
 
 This demos a simple configuration that tells webpack to treat `external.js` as an external dependency (load dynamically rather than bundling via webpack).
 
