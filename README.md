@@ -5,22 +5,29 @@ This demos a simple configuration that tells webpack to treat external.js as an 
 - `internal.js` is bundled in, and will output `index.js` when logging `__filename`
 - `external.js` is set as an external commonjs dependency, and will correctly report `external.js` as its `__filename`.
 
-```bs
-externals ❯ npm start
+```bash
+❯ npm start
 
 > externals@1.0.0 start /Users/pwmckenna/git/externals
 > webpack && node dist
 
-Hash: b8828608130014238bb3
+Hash: 038a490a493f24788aa3
 Version: webpack 1.12.9
 Time: 42ms
    Asset     Size  Chunks             Chunk Names
-index.js  1.78 kB       0  [emitted]  main
+index.js  1.87 kB       0  [emitted]  main
    [0] ./index.js 45 bytes {0} [built]
-   [1] ./internal.js 47 bytes {0} [built]
+   [1] ./internal.js 134 bytes {0} [built]
     + 1 hidden modules
-internal /index.js /
-external /Users/pwmckenna/git/externals/external.js /Users/pwmckenna/git/externals
+
+__internal__
+__filename /index.js
+__dirname /
+
+
+__external__
+__filename /Users/pwmckenna/git/externals/external.js
+__dirname /Users/pwmckenna/git/externals
 ```
 
 # Gotta see it to believe it?
