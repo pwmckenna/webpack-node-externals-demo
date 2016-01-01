@@ -27,7 +27,7 @@ __filename /Users/pwmckenna/git/externals/external.js
 __dirname /Users/pwmckenna/git/externals
 ```
 
-Take note that `external.js` was not loaded by webpack, but was still executed.
+__Note__: `external.js` was not loaded by webpack, but was still executed.
 
 # Gotta see it to believe it?
 
