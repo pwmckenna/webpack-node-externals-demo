@@ -40,7 +40,7 @@ This will just run webpack then the bundled file, which should print the output 
 
 This is way easier if you're requiring something from node_modules...this example builds into the dist folder, so the relative path is different. If you're requiring something like `react`, your config will look like:
 
-```json
+```js
   ...
   externals: {
     'react': 'commonjs react'
