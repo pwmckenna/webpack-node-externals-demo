@@ -28,3 +28,15 @@ external /Users/pwmckenna/git/externals/external.js /Users/pwmckenna/git/externa
 `npm install && npm start`
 
 This will just run webpack then the bundled file, which should print the output from above.
+
+# Path resolution
+
+This is way easier if you're requiring something from node_modules...this example builds into the dist folder, so the relative path is different. If you're requiring something like `react`, your config will look like:
+
+```json
+  ...
+  externals: {
+    'react': 'commonjs react'
+  }
+  ...
+```
