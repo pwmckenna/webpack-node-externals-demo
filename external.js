@@ -1,0 +1,1 @@
+console.log('external', __filename, __dirname);
