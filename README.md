@@ -18,12 +18,12 @@ index.js  1.87 kB       0  [emitted]  main
     + 1 hidden modules
 
 __internal__
-__filename /index.js
+__filename /index.js    <----- THE CODE FROM internal.js IS NOW IN THE FILE index.js
 __dirname /
 
 
 __external__
-__filename /Users/pwmckenna/git/externals/external.js
+__filename /Users/pwmckenna/git/externals/external.js    <----- THE CODE FROM external.js REMAINS IN ITS OWN FILE
 __dirname /Users/pwmckenna/git/externals
 ```
 
