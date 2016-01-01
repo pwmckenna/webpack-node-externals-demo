@@ -22,3 +22,9 @@ index.js  1.78 kB       0  [emitted]  main
 internal /index.js /
 external /Users/pwmckenna/git/externals/external.js /Users/pwmckenna/git/externals
 ```
+
+# Gotta see it to believe it?
+
+`npm install && npm start`
+
+This will just run webpack then the bundled file, which should print the output from above.
