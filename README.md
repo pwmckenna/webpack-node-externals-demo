@@ -11,9 +11,6 @@ This demos a simple configuration that tells webpack to treat external.js as an 
 > externals@1.0.0 start /Users/pwmckenna/git/externals
 > webpack && node dist
 
-Hash: 038a490a493f24788aa3
-Version: webpack 1.12.9
-Time: 42ms
    Asset     Size  Chunks             Chunk Names
 index.js  1.87 kB       0  [emitted]  main
    [0] ./index.js 45 bytes {0} [built]
@@ -29,6 +26,8 @@ __external__
 __filename /Users/pwmckenna/git/externals/external.js
 __dirname /Users/pwmckenna/git/externals
 ```
+
+Take note that `external.js` was not loaded by webpack, but was still executed.
 
 # Gotta see it to believe it?
 
