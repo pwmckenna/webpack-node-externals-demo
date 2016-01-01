@@ -1,6 +1,6 @@
 # Webpack node external demo
 
-This demos a simple configuration that tells webpack to treat external.js as an external dependency.
+This demos a simple configuration that tells webpack to treat `external.js` as an external dependency (load dynamically rather than bundling via webpack).
 
 - `internal.js` is bundled in, and will output `index.js` when logging `__filename`
 - `external.js` is set as an external commonjs dependency, and will correctly report `external.js` as its `__filename`.
